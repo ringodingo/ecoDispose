@@ -91,9 +91,7 @@ if re.match(EMAIL_REGEX, email):
 else:
     print("\nThere seems to be an error in how you have input email, please try again " +name+ ", you entered: " +email)
     exit()
-#must include the 'Print' function, either .lower, .upper or .capitalise. Also the use of a variable and also If, elif or else function. You can use 
-#For loop and While loop as extra functions as a challenge addition to your computer program. You must include information about the WEEE Directive, 
-# GDPR statement and some form of health and safety guidance such as the safe recycling of batteries perhaps.
+
 print("\ngreenTech are compliant with the recent updates to WEEE Directive Legislation, you can view more information on our practices at https://www.greentech.org/ecodispose\n")
 print("\nIf you are looking to recycle or resell any products that contain batteries of any type, please ensure these have been removed from the device where possible, where this is not possible, please confirm to us, we will still collect these and take away, however they require different means of handling and can be highly toxic\n")
 
