@@ -114,7 +114,7 @@ if Q1.lower()=="no":
         print("\nThanks, give us a few hours to review and get a price back to you")
     elif Q3=="4":
         deldate= get_valid_date(f"\nPlease Enter Your Required Delivery Date (we need min 5 days to schedule, your earliest date will be {date.today() + timedelta(days=addingdays):%B %d, %Y}, if this is an issue, please call on 01234 567890) ")
-        print("\nhanks, give us a few hours to review and get a price back to you")
+        print("\nThanks, give us a few hours to review and get a price back to you")
     else:
         print("\n Please enter a value between 1 - 4")
     #q2/q3
