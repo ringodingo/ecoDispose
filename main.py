@@ -97,7 +97,7 @@ print("\nIf you are looking to recycle or resell any products that contain batte
 
 #Item Questions
 Q1=input("\nDo you have items that you want to see if there is possible resale value? Yes / No ")
-#Q3=input("Please confirm the item type and quantity")
+
 count=0
 addingdays=6
 if Q1.lower()=="no":
@@ -117,7 +117,7 @@ if Q1.lower()=="no":
         print("\nThanks, give us a few hours to review and get a price back to you")
     else:
         print("\n Please enter a value between 1 - 4")
-    #q2/q3
+        
 elif Q1.lower()=="yes":
     print("\nOK, we will ask next whether items are non-working or working separately ")
     while Q1.lower:
